@@ -8,6 +8,7 @@ const options = {
     bundle: true,
     minify: false,
     watch: true,
+    sourcemap: true,
 };
 
 build(options).catch(() => process.exit(1));
